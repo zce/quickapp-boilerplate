@@ -6,11 +6,15 @@
 
 ```shell
 # clone repo
-$ git clone https://github.com/zce/quickapp-locally.git
+$ git clone https://github.com/zce/quickapp-boilerplate.git my-project --depth 1
+$ cd my-project
+
 # install dependencies
 $ yarn
+
 # build rpk
 $ yarn build
+
 # start hmr server
 $ yarn server
 ```
